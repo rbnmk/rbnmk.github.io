@@ -2,8 +2,8 @@
 id: 85
 title: My top 5 Microsoft Azure bookmarks in 2020
 date: 2020-04-07T07:31:24+02:00
-author: Robin Makkus
-layout: post
+#author: Robin Makkus
+#layout: post
 guid: http://www.rbnmk.net/?p=85
 permalink: /2020/04/07/my-top-5-microsoft-azure-bookmarks-in-2020/
 ssb_old_counts:

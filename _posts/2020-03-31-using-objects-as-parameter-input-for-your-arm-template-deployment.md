@@ -2,8 +2,8 @@
 id: 75
 title: Using objects as parameter input for your ARM template deployment
 date: 2020-03-31T14:19:03+02:00
-author: Robin Makkus
-layout: post
+#author: Robin Makkus
+#layout: post
 guid: http://www.rbnmk.net/?p=75
 permalink: /2020/03/31/using-objects-as-parameter-input-for-your-arm-template-deployment/
 ssb_old_counts:

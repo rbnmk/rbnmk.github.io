@@ -2,8 +2,8 @@
 id: 186
 title: 'Using Bicep&#8217;s loadTextContent() for Azure Image Builder'
 date: 2021-08-09T15:12:28+02:00
-author: Robin Makkus
-layout: post
+#author: Robin Makkus
+#layout: post
 guid: https://rbnmk.net/?p=186
 permalink: /2021/08/09/using-biceps-loadtextcontent-for-azure-image-builder/
 categories:

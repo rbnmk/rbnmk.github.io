@@ -2,8 +2,8 @@
 id: 123
 title: Enable Azure Monitor for VMs with Azure Blueprints, Azure Policy and Azure DevOps
 date: 2020-09-25T08:32:02+02:00
-author: Robin Makkus
-layout: post
+#author: Robin Makkus
+#layout: post
 guid: http://rbnmk.net/?p=123
 permalink: /2020/09/25/enable-azure-monitor-for-vms-with-azure-blueprints-azure-policy-and-azure-devops/
 categories:

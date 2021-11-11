@@ -1,19 +1,11 @@
 ---
-id: 15
-title: VSCode extension recommendations for the Microsoft SysAdmin!
+title: "VSCode extension recommendations for the Microsoft SysAdmin!"
 date: 2020-03-25T14:43:20+02:00
-author: Robin Makkus
-layout: post
-guid: http://www.rbnmk.net/?p=15
+#author: Robin Makkus
+#layout: post
 permalink: /2020/03/25/vscode-extension-recommendations-for-the-microsoft-sysadmin/
-ssb_old_counts:
-  - 'a:5:{s:7:"twitter";i:0;s:9:"pinterest";i:0;s:7:"fbshare";i:0;s:6:"reddit";i:0;s:6:"tumblr";i:0;}'
-ssb_total_counts:
-  - "0"
-ssb_cache_timestamp:
-  - "443203"
-image: http://rbnmk.net/wp-content/uploads/2020/03/visual-studio-code-logo-284BC24C39-seeklogo.com_-e1585146121126.png
 categories:
+  - blog
   - Extensions
   - SysAdmin
   - VSCode
@@ -24,6 +16,9 @@ tags:
   - powershell
   - scripting
 ---
+
+
+
 I am currently transitioning from traditional day to day sysadmin work to DevOps / automation work. Which means I happen to spend more time writing code (mostly Infrastructure related) than actually configuring stuff via the GUI. I mostly work with Microsoft products like Microsoft PowerShell, Microsoft Azure, Microsoft 365 and Azure DevOps, so that&#8217;s what I will be recommending extensions and other settings for.
 
 First off, VSCode is similar to Visual Studio but I find it more lightweight and it fills my needs with the use of several extensions. VSCode is also cross-platform available which is in my opinion a must these days. It can run on Windows, MacOS and Linux. If you don&#8217;t have VSCode yet, you can download it here: <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer noopener" aria-label=" (opens in a new tab)">https://code.visualstudio.com/</a>

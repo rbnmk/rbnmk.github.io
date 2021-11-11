@@ -2,8 +2,8 @@
 id: 98
 title: Enable Azure Disk Encryption by using Powershell inside ARM Templates
 date: 2020-05-06T14:30:00+02:00
-author: Robin Makkus
-layout: post
+#author: Robin Makkus
+#layout: post
 guid: http://www.rbnmk.net/?p=98
 permalink: /2020/05/06/enable-azure-disk-encryption-by-using-deployment-script-in-arm-templates/
 ssb_old_counts:

@@ -2,8 +2,8 @@
 id: 169
 title: Deploy Action Rules with ARM Templates
 date: 2020-12-22T14:46:32+02:00
-author: Robin Makkus
-layout: post
+#author: Robin Makkus
+#layout: post
 guid: http://rbnmk.net/?p=169
 permalink: /2020/12/22/deploy-action-rules-with-arm-templates/
 image: http://rbnmk.net/wp-content/uploads/2020/12/logo.png

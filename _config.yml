@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   A blog about automating and managing your Azure infrastructure.
 twitter_username: rbmk29
 github_username: rbnmk
-minimal_mistakes_skin: "dark" # "default","air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+minimal_mistakes_skin: "neon" # "default","air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 search: true
 repository: "rbnmk/rbnmk.github.io"
 
@@ -91,6 +91,12 @@ footer:
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/"
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-MY2V1XSB91"
+    anonymize_ip: false # default
 
 defaults:
   # _posts

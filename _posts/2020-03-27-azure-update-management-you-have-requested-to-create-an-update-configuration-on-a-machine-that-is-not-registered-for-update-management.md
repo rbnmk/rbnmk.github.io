@@ -2,8 +2,8 @@
 id: 71
 title: 'Azure Update Management: You have requested to create an update configuration on a machine that is not registered for Update Management'
 date: 2020-03-27T09:08:03+02:00
-author: Robin Makkus
-layout: post
+#author: Robin Makkus
+#layout: post
 guid: http://www.rbnmk.net/?p=71
 permalink: /2020/03/27/azure-update-management-you-have-requested-to-create-an-update-configuration-on-a-machine-that-is-not-registered-for-update-management/
 ssb_old_counts:
