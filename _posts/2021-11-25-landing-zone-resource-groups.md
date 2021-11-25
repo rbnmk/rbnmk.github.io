@@ -24,17 +24,17 @@ Now.. to get started. In this first blog we will create our initial main.bicep f
 
 ### Starting with bicep
 
-Start by creating a main.bicep file. In my example I will target the deployment on subscription level, so we set the targetScope to 'Subscription' on top of the file. More info about Bicep's deployment scopes [here](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/deploy-to-subscription?tabs=azure-cli).
+Start by creating a main.bicep file. In my example I will target the deployment on subscription level, so we set the targetScope to 'Subscription' on top of the file. More info about Bicep's deployment scopes [here](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/deploy-to-subscription?tabs=azure-cli){:target="_blank"}.
 
 <script src="https://gist.github.com/rbnmk/2970ab025c269b1356f00e922bf0babf.js?file=1-targetScope-example.bicep"></script>
 
-Next step is to create two starting parameters. I have hardcoded both values, but later in this series we will provide them upon execution of the template to make sure we target the appropriate environment. More info about different type of parameters can be found [here](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/parameters).
+Next step is to create two starting parameters. I have hardcoded both values, but later in this series we will provide them upon execution of the template to make sure we target the appropriate environment. More info about different type of parameters can be found [here](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/parameters){:target="_blank"}.
 
 <script src="https://gist.github.com/rbnmk/2970ab025c269b1356f00e922bf0babf.js?file=2-parameters-example.bicep"></script>
 
 In the next step we will create a new variable that will contain environment specific configuration settings, which will be a mix of objects & arrays, so make sure to properly define them.
 
-In the example below I create the variable **`envConfig`** and define a object, within this initial object I create the **`hub`** configuration. Inside this object all required or related configuration for the hub will be defined. More info about this can be found on the [docs](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/variables).
+In the example below I create the variable **`envConfig`** and define a object, within this initial object I create the **`hub`** configuration. Inside this object all required or related configuration for the hub will be defined. More info about this can be found on the [docs](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/variables){:target="_blank"}.
 
 Feel free to change as you like or according to your naming convention!
 
@@ -42,7 +42,7 @@ Feel free to change as you like or according to your naming convention!
 
 Next step is to define our first resource deployment, which will be Resource Groups, because we need at least one to start deploying resources.
 
-Example below: iterating over the **`envConfig[environment].resourceGroups`** array. If you want to learn more about loops, please visit the documentation via this link: [Bicep loops](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/loops).
+Example below: iterating over the **`envConfig[environment].resourceGroups`** array. If you want to learn more about loops, please visit the documentation via this link: [Bicep loops](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/loops){:target="_blank"}.
 
 ### Example (Iterating over our earlier created variable array)
 
