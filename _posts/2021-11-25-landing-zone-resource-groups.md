@@ -52,20 +52,16 @@ Example below: iterating over the **`envConfig[environment].resourceGroups`** ar
 
 To deploy the resource groups to a certain subscription make sure your are logged in using `az login`. If you are logged in already make sure you are in the right subscription context by running `az account show`. You can switch subscriptions with `az account set --subscription <000-000-000>`
 
-Or you can use PowerShel: `Connect-AzAccount -SubscriptionId <000-000-000>`
+Or you can use PowerShell: `Connect-AzAccount -SubscriptionId <000-000-000>`
 
 Now to deploy the file you can run the following command:
 
 #### Deployment with either Azure CLI or Azure PowerShell
 
-``` bash
-az deployment sub create `
-    --template-file .\main.bicep `
-    --location WestEurope
-```
+{% highlight powershell %}
+az deployment sub create --template-file .\main.bicep --location WestEurope
+{% endhighlight %}
 
-``` PowerShell
-New-AzDeployment -Name BlogExample ` 
-    -TemplateFile .\main.bicep `
-    -Location WestEurope
-```
+{% highlight powershell %}
+New-AzDeployment -Name BlogExample -TemplateFile .\main.bicep -Location WestEurope
+{% endhighlight %}
