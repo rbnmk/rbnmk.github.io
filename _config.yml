@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   A blog about automating and managing your Azure infrastructure.
 twitter_username: rbmk29
 github_username: rbnmk
-minimal_mistakes_skin: "neon" # "default","air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+minimal_mistakes_skin: "dirt" # "default","air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 search: true
 repository: "rbnmk/rbnmk.github.io"
 
@@ -58,8 +58,8 @@ plugins:
 
 author:
   name   : "Robin Makkus"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : ""
+  avatar : "/assets/images/bio-photo-robin.jpg"
+  bio    : "A system and cloud engineer looking to automate all things Azure"
   links:
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
