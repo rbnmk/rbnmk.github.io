@@ -1,5 +1,6 @@
 ---
 title: "Azure Bicep Landing Zone Series - Resource Groups"
+date: 2022-01-01 08:00:00
 categories:
   - blog
 tags:

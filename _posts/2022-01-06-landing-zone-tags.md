@@ -1,5 +1,6 @@
 ---
 title: "Azure Bicep Landing Zone Series - Tags"
+date: 2022-01-06 08:00:00
 categories:
   - blog
 tags:
