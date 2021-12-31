@@ -1,5 +1,5 @@
 ---
-title: "New blog new blogs"
+title: "New blog"
 categories:
   - blog
 tags:

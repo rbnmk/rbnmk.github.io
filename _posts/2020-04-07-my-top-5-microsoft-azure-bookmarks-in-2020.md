@@ -18,6 +18,7 @@ categories:
 tags:
   - Documentation
   - Reference
+published: false
 ---
 I recently cleaned up my bookmarks since I started using the new Microsoft Edge. I also figured out I just need a small set of bookmarks for my day to day work. I use these websites on a daily basis for designing, implementing, configuring and securing Microsoft Azure infrastructure. Governance and fundamental stuff is a hot topic these days, which is available in the Microsoft cloud adoption framework. You&#8217;ve probably been to these pages before but I still feel like I can share the value these pages have.
 
