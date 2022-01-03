@@ -68,9 +68,5 @@ az deployment sub create --name BlogExample --template-file .\main.bicep --locat
 New-AzDeployment -Name BlogExample -TemplateFile .\main.bicep -Location WestEurope
 {% endhighlight %}
 
-You have now created a main.bicep file, which contains the environment configuration in a variable and deployed this to your Azure subscription. In the next blog we will add tags to the deployed resource groups!
-
-{% comment %} 
-    [next blog]({% post_url /blog/2022-01-06-landing-zone-tags %})
-{% endcomment %}
+You have now created a main.bicep file, which contains the environment configuration in a variable and deployed this to your Azure subscription. In the [next blog]({% post_url /blog/2022-01-06-landing-zone-tags %}) we will add tags to the deployed resource groups!
 

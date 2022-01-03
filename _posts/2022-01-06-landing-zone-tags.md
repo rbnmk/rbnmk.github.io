@@ -8,7 +8,7 @@ tags:
   - Azure
   - Design
   - Architecture
-published: false
+published: true
 ---
 
 Welcome to this blog series. To follow the steps in this blog I recommend checking out my [previous blog]({ % post_url /blog/2022-01-01-landing-zone-resource-groups %}){:target="_blank"}. This blog series will help you build your Infrastructure as Code landing zone using Bicep. It is your choice how to deploy it. In my examples I will use Azure PowerShell or Azure CLI but feel free to execute the deployment using Azure DevOps or maybe even GitHub Actions.
