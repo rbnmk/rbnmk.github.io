@@ -26,7 +26,7 @@ In this blog we will to a relatively simple task but it is not always done from 
 In order to add tags to resource groups we will create an object in Bicep, and make sure to apply this to every resource group we are deploying. I usually start with simple tags and update them throughout the lifetime of the environment. In this example we start with a simple set.
 
 * Environment: This tag will tell us, by looking at the resource which environment it belongs to.
-* Solution: This tag willl tell us to which solution this resource belongs.
+* Solution: This tag will tell us to which solution this resource belongs.
 * Customer: This tag will tell us for which customer this resource is used. This can come in handy when looking at a lot of resources via i.e. Azure Lighthouse (from an MSP or Large Enterprise perspective)
 
 ## Adding the tags and applying them to the resources and resource groups
