@@ -17,7 +17,7 @@ The latest version of the code can be found in my [GitHub repository](https://gi
 
 ## Intro
 
-In the [previous blog](/_posts/2021-11-25-landing-zone-resource-groups.md){:target="_blank"} we started with our main.bicep file, some parameters, variables and a resource group deployment. In this blog we will add tags to these resource groups that can be used for reporting and numerous other tasks or reasons.
+In the [previous blog]({% post_url /blog/2022-01-01-landing-zone-resource-groups %}){:target="_blank"} we started with our main.bicep file, some parameters, variables and a resource group deployment. In this blog we will add tags to these resource groups that can be used for reporting and numerous other tasks or reasons.
 
 In this blog we will to a relatively simple task but it is not always done from the start. I like to include most of the tags right from the first deployment. Tags can applied to almost every Azure resource and can help you with identifying certain parts of the environment or even with reporting or monitoring purposes.
 
