@@ -46,6 +46,10 @@ Now to add it to our already created resource group in the previous blog add the
 In the example above you see me using the [union()](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/bicep-functions-array#union){:target="_blank"} function. It is used to combine two of the same objects. Duplicate values are only included once, which is handy to combine certain default values or override them with values provided on execution of this template.
 {: .notice--info}
 
+
+If you've followed the steps you should have a file that looks somewhat like this:
+<script src="https://gist.github.com/rbnmk/c91f59f8cb580191ef0b3d31f7fd91f1.js?file=main.bicep"></script>
+
 Deploy the updated main.bicep file with either Az PowerShell or Az CLI.
 
 {% highlight powershell %}
