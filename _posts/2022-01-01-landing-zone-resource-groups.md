@@ -61,13 +61,14 @@ Next step is to define our first resource deployment, which will be Resource Gro
 
 ### Example resource group deployment
 
-#### Advanced example
-
-<script src="https://gist.github.com/rbnmk/2970ab025c269b1356f00e922bf0babf.js?file=resource-example-2.bicep"></script>
 
 #### Simple example
 
 <script src="https://gist.github.com/rbnmk/2970ab025c269b1356f00e922bf0babf.js?file=resource-example-2-2.bicep"></script>
+
+#### Advanced example
+
+<script src="https://gist.github.com/rbnmk/2970ab025c269b1356f00e922bf0babf.js?file=resource-example-2.bicep"></script>
 
 If you've followed the steps above your should have a file with the following content:
 <script src="https://gist.github.com/rbnmk/2970ab025c269b1356f00e922bf0babf.js?file=main.bicep"></script>
