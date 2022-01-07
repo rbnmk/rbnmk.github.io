@@ -23,6 +23,7 @@ In order to follow this blog series and learn how to hopefully design, create an
 
 I recommend the following software, tools installed on your computer and before continuing:
 
+* [Bicep](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/install){:target="_blank"}
 * Visual Studio code with the Bicep (and possibly ARM tools for debugging any issues) extension installed.
 * Latest Azure PowerShell and/or Azure CLI installed.
 
