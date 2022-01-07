@@ -1,5 +1,8 @@
 ---
 title: "Azure Bicep Landing Zone Series - Tags"
+header:
+  og_image: "assets/images/BicepLogoImage.png"
+  teaser: "assets/images/BicepLogoImage.png"
 date: 2022-01-06 08:00:00
 categories:
   - blog

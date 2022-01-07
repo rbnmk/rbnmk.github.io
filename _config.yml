@@ -112,6 +112,7 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
   # _pages
   - scope:
       path: "_pages"
@@ -119,6 +120,13 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "rbnmk"
+
+teaser: /assets/images/teaser.png
 
 category_archive:
   type: liquid
