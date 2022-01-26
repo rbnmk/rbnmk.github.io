@@ -18,7 +18,7 @@ url: https://rbnmk.net
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   A blog about automating and managing your Azure infrastructure.
-twitter_username: rbmk29
+twitter_username: rbnmk29
 github_username: rbnmk
 minimal_mistakes_skin: "dirt" # "default","air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 search: true
