@@ -92,4 +92,4 @@ az deployment sub create --name BlogExample --template-file .\main.bicep --locat
 New-AzDeployment -Name BlogExample -TemplateFile .\main.bicep -Location WestEurope
 {% endhighlight %}
 
-You have now successfully deployed the HUB network, which we will connect to the spoke network in the next blog so be sure to come back to found out how you can do this using Bicep.
+You have now successfully deployed the HUB network, which we will connect to the spoke network in the next blog so be sure to come back to find out how you can do this using Bicep.
