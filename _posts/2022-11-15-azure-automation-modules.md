@@ -41,7 +41,8 @@ If you look at the modules in your Automation account via the portal you can fil
 
 As you can see mine were not updated since february. In order to fix this you can either remove them one by one, or if you like PowerShell use this one-liner:
 
-(Please only use this script if you know what you are doing!)
+Please only use this script if you know what you are doing!
+{: .notice--danger}
 
 <script src="https://gist.github.com/rbnmk/40f72114a85baaf34b840ba9478d4ecc.js"></script>
 
