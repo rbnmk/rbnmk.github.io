@@ -1,8 +1,8 @@
 ---
 title: "Azure Automation Runbook: Could not convert string to DateTimeOffset"
-#header:
-  #og_image: "assets/images/BicepLogoImage.png"
-  #teaser: "assets/images/BicepLogoImage.png"
+header:
+  og_image: "assets/images/Automation-Accounts.png"
+  teaser: "assets/images/Automation-Accounts.png"
 categories:
   - blog
 tags:
