@@ -13,8 +13,6 @@ tags:
 published: true
 ---
 
-## Intro
-
 I recently started getting issues with different customers in which we use Azure Automation for Update Management. We use the pre- and post runbook functionality for quite some time already, but recently we started getting these errors on multiple lines:
 
 ``
