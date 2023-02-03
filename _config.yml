@@ -61,7 +61,7 @@ plugins:
 author:
   name   : "Robin Makkus"
   avatar : "/assets/images/bio-photo-robin.jpg"
-  bio    : "A passionate cloud engineer that likes writing blogs about deploying and managing Azure infrastructure."
+  bio    : "A passionate cloud consultant that likes writing blogs about deploying and managing Azure infrastructure."
   links:
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
