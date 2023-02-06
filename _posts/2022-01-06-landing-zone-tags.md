@@ -14,6 +14,9 @@ tags:
 published: true
 ---
 
+This blog series is discontinued due to (personal) time constraints, I might revisit this in 2023. I will continue blogging though, but smaller and probably more day to day stuff I encounter during my work.
+{: .notice--danger}
+
 Welcome to this blog series. To follow the steps in this blog I recommend checking out my [previous blog]({% post_url 2022-01-01-landing-zone-resource-groups %}){:target="_blank"}. This blog series will help you build your Infrastructure as Code landing zone using Bicep. It is your choice how to deploy it. In my examples I will use Azure PowerShell or Azure CLI but feel free to execute the deployment using Azure DevOps or maybe even GitHub Actions. The latest version of the code can be found in my [GitHub repository](https://github.com/rbnmk/bicep-build-your-landing-zone){:target="_blank"}, created specifically for this blog series.
 {: .notice}
 
