@@ -10,6 +10,6 @@ Yours truly,
 
 Robin
 
-# Social Media
+## Social Media
 
 - :linkedin: [LinkedIn](https://www.linkedin.com/in/rbnmk/)
