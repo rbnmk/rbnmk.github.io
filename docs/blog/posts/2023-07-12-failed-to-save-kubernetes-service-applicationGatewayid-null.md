@@ -13,6 +13,7 @@ tags:
   - ApplicationGateway
 authors:
   - rbnmk
+comments: true
 ---
 
 # Failed to save Kubernetes service - addonProfiles.ingressApplicationGateway.config.applicationGatewayId is invalid

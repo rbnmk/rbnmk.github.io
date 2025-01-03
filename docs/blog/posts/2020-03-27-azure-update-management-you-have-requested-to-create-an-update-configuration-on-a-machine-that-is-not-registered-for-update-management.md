@@ -10,6 +10,7 @@ tags:
   - update
 authors:
   - rbnmk
+comments: true
 ---
 # Azure Update Management: You have requested to create an update configuration on a machine that is not registered for Update Management
 

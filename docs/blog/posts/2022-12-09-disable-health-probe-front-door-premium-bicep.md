@@ -12,6 +12,7 @@ date:
   created: 2022-01-01 08:00:00
 authors:
   - rbnmk
+comments: true
 ---
 
 # Disable Health Probe on Azure Front Door Origin Groups using Bicep

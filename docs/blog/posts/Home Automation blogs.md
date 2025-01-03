@@ -6,6 +6,7 @@ authors:
     - rbnmk
 categories:
     - Home Automation
+comments: true
 ---
 
 Sample blog...

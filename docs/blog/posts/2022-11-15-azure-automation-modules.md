@@ -10,6 +10,7 @@ date:
   created: 2022-11-15 08:00:00
 authors:
   - rbnmk
+comments: true
 ---
 
 # Azure Automation Runbook: Could not convert string to DateTimeOffset
