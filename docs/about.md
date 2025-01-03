@@ -12,4 +12,4 @@ Robin
 
 ## Social Media
 
-- :fontawesome-brands-linkedin:{ .linkedin } [LinkedIn](https://www.linkedin.com/in/robinmakkus/)
+:fontawesome-brands-linkedin:{ .linkedin } [LinkedIn](https://www.linkedin.com/in/robinmakkus/)
