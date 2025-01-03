@@ -6,4 +6,4 @@ Welcome to this blog, where I share my ideas, designs and solutions to problems 
 
 ### Home Automation
 
-[:simple-homeassistant:](/blog/category/home-assistant/){ .md-button }
+[:simple-homeassistant:](/blog/category/home-automation/){ .md-button }
