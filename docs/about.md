@@ -9,3 +9,7 @@ If you want to reach out or want to get in touch, feel free to do so via social 
 Yours truly,
 
 Robin
+
+# Social Media
+
+- :linkedin: [LinkedIn](https://www.linkedin.com/in/rbnmk/)
