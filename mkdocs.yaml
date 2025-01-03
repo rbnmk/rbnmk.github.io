@@ -101,10 +101,14 @@ plugins:
   - social
   - tags
   - rss:
+      categories:
+        - categories
+        - tags
       match_path: "blog/posts/.*"
       date_from_meta:
         as_creation: date.created
         as_update: date.updated
+      comments_path: "#__comments"
 
 extra:
   social:
