@@ -1,6 +1,6 @@
 site_name: "RBNMK"
 site_description: "A blog about automating and managing your Azure infrastructure."
-site_url: "https://rbnmk.github.io"
+site_url: "https://blog.rbnmk.net"
 
 theme:
   language: en
