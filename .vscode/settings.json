@@ -1,0 +1,9 @@
+{
+  "yaml.schemas": {
+    "https://squidfunk.github.io/mkdocs-material/schema.json": "mkdocs.yaml"
+  },
+  "files.associations": {
+    "ci.yml": "github-actions-workflow",
+    "*.md": "markdown"
+  }
+}
