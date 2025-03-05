@@ -111,6 +111,9 @@ plugins:
       timezone: Europe/Amsterdam
       fallback_to_build_date: true
 
+hooks:
+  - hooks/socialmedia.py
+
 extra:
   social:
     - icon: fontawesome/brands/github
