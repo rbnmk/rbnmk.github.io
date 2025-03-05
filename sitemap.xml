@@ -2,66 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://rbnmk.github.io/</loc>
-         <lastmod>2025-01-03</lastmod>
+         <lastmod>2025-03-05</lastmod>
     </url>
     <url>
          <loc>https://rbnmk.github.io/about/</loc>
-         <lastmod>2025-01-03</lastmod>
+         <lastmod>2025-03-05</lastmod>
     </url>
     <url>
          <loc>https://rbnmk.github.io/blog/</loc>
-         <lastmod>2025-01-03</lastmod>
+         <lastmod>2025-03-05</lastmod>
     </url>
     <url>
          <loc>https://rbnmk.github.io/blog/2020/03/27/azure-update-management-you-have-requested-to-create-an-update-configuration-on-a-machine-that-is-not-registered-for-update-management/</loc>
-         <lastmod>2025-01-03</lastmod>
+         <lastmod>2025-03-05</lastmod>
     </url>
     <url>
          <loc>https://rbnmk.github.io/blog/2022/11/15/azure-automation-runbook-could-not-convert-string-to-datetimeoffset/</loc>
-         <lastmod>2025-01-03</lastmod>
+         <lastmod>2025-03-05</lastmod>
     </url>
     <url>
          <loc>https://rbnmk.github.io/blog/2022/01/01/disable-health-probe-on-azure-front-door-origin-groups-using-bicep/</loc>
-         <lastmod>2025-01-03</lastmod>
+         <lastmod>2025-03-05</lastmod>
     </url>
     <url>
          <loc>https://rbnmk.github.io/blog/2023/07/12/failed-to-save-kubernetes-service---addonprofilesingressapplicationgatewayconfigapplicationgatewayid-is-invalid/</loc>
-         <lastmod>2025-01-03</lastmod>
-    </url>
-    <url>
-         <loc>https://rbnmk.github.io/blog/2025/01/03/home-automation-blogs/</loc>
-         <lastmod>2025-01-03</lastmod>
+         <lastmod>2025-03-05</lastmod>
     </url>
     <url>
          <loc>https://rbnmk.github.io/blog/2025/01/02/from-jekyll-to-mkdocs-in-2025/</loc>
-         <lastmod>2025-01-03</lastmod>
+         <lastmod>2025-03-05</lastmod>
     </url>
     <url>
          <loc>https://rbnmk.github.io/blog/archive/2025/</loc>
-         <lastmod>2025-01-03</lastmod>
+         <lastmod>2025-03-05</lastmod>
     </url>
     <url>
          <loc>https://rbnmk.github.io/blog/archive/2023/</loc>
-         <lastmod>2025-01-03</lastmod>
+         <lastmod>2025-03-05</lastmod>
     </url>
     <url>
          <loc>https://rbnmk.github.io/blog/archive/2022/</loc>
-         <lastmod>2025-01-03</lastmod>
+         <lastmod>2025-03-05</lastmod>
     </url>
     <url>
          <loc>https://rbnmk.github.io/blog/archive/2020/</loc>
-         <lastmod>2025-01-03</lastmod>
-    </url>
-    <url>
-         <loc>https://rbnmk.github.io/blog/category/home-automation/</loc>
-         <lastmod>2025-01-03</lastmod>
+         <lastmod>2025-03-05</lastmod>
     </url>
     <url>
          <loc>https://rbnmk.github.io/blog/category/general/</loc>
-         <lastmod>2025-01-03</lastmod>
+         <lastmod>2025-03-05</lastmod>
     </url>
     <url>
          <loc>https://rbnmk.github.io/blog/category/azure/</loc>
-         <lastmod>2025-01-03</lastmod>
+         <lastmod>2025-03-05</lastmod>
     </url>
 </urlset>
