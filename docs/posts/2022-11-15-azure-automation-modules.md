@@ -39,7 +39,7 @@ Now let's fix this:
 
 If you look at the modules in your Automation account via the portal you can filter on the module type: 'Custom', if you see any 'Az.' modules there that could be outdated. 
 
-![azure-modules](../../assets/images/automation_custom_modules.png)
+![azure-modules](../assets/images/automation_custom_modules.png)
 {: .full}
 
 

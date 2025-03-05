@@ -31,7 +31,7 @@ If you start off with an example template from the documentation you will most l
 
 In the portal it is simply ticking a box as seen in the screenshot below:
 
-![Origin Group: Health Probe settings](../../assets/images/origin_group_settings_probe.png)
+![Origin Group: Health Probe settings](../assets/images/origin_group_settings_probe.png)
 
 According to the documentation it should be updated in the origin itself instead of the group:
 
@@ -85,7 +85,7 @@ resource originGroup 'Microsoft.Cdn/profiles/origingroups@2021-06-01' = {
 
 After deployment the setting on the Origin Group should look like this:
 
-![Origin Group: Health Probe settings](../../assets/images/origin_group_settings_probe_disabled.png)
+![Origin Group: Health Probe settings](../assets/images/origin_group_settings_probe_disabled.png)
 
 I hope this helped you disabling the Health Probes from Bicep, because it took me some time to figure this out, and I couldn't find anything about this via my common used search engine 😉. I will try to make a comment about this on the mentioned documentation via the feedback forms.
 

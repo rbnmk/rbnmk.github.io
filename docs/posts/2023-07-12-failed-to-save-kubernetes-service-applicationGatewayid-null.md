@@ -24,7 +24,7 @@ I ran into an issue when deploying Azure Kubernetes services using ARM Templates
 
 We noticed that our clusters were set to the Free SKU but we are actually deploying with the Standard SKU. When we tried to change the SKU in the portal we got the following error:
 
-![AKS Error 1](../../assets/images/aks_error_1.png)
+![AKS Error 1](../assets/images/aks_error_1.png)
 
 Error description in text:
 
@@ -67,7 +67,7 @@ az aks update --resource-group $aksRgName -n $aksName --tier 'Standard'
 
 Now verify if the cluster is set to the Standard SKU:
 
-![AKS Standard SKU](../../assets/images/aks_sku_standard.png)
+![AKS Standard SKU](../assets/images/aks_sku_standard.png)
 
 I also checked if the SKU is set correctly after an ARM-template deployment. It was not reset to Free so I think it's all good now. I hope that Microsoft Azure will provide better error messages in the future for these kind of issues.
 
