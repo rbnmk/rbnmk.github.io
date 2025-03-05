@@ -838,7 +838,7 @@
 <!-- more -->
 
 <p>We noticed that our clusters were set to the Free SKU but we are actually deploying with the Standard SKU. When we tried to change the SKU in the portal we got the following error:</p>
-<p><img alt="AKS Error 1" src="../../assets/images/aks_error_1.png" /></p>
+<p><img alt="AKS Error 1" src="../../../../assets/images/aks_error_1.png" /></p>
 <p>Error description in text:</p>
 <p class="notice--warning">Failed to save Kubernetes service. Error: Property id '' at path 'properties.addonProfiles.ingressApplicationGateway.config.applicationGatewayId' is invalid. Expect fully qualified resource Id that start with '/subscriptions/{subscriptionId}' or '/providers/{resourceProviderNamespace}/'</p>
 <h2 id="the-solution">The solution<a class="headerlink" href="#the-solution" title="Permanent link">&para;</a></h2>
@@ -861,7 +861,7 @@
 </span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="n">az</span> <span class="n">aks</span> <span class="n">update</span> <span class="p">-</span><span class="n">-resource-group</span> <span class="nv">$aksRgName</span> <span class="n">-n</span> <span class="nv">$aksName</span> <span class="p">-</span><span class="n">-tier</span> <span class="s1">&#39;Standard&#39;</span>
 </span></code></pre></div>
 <p>Now verify if the cluster is set to the Standard SKU:</p>
-<p><img alt="AKS Standard SKU" src="../../assets/images/aks_sku_standard.png" /></p>
+<p><img alt="AKS Standard SKU" src="../../../../assets/images/aks_sku_standard.png" /></p>
 <p>I also checked if the SKU is set correctly after an ARM-template deployment. It was not reset to Free so I think it's all good now. I hope that Microsoft Azure will provide better error messages in the future for these kind of issues.</p>
 <p>That's it for today, hope it helped you out - would be happy to know if it helped you (or not)!</p>
 
@@ -884,7 +884,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="March 5, 2025 07:54:07">March 5, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="March 5, 2025 10:00:40">March 5, 2025</span>
   </span>
 
     
