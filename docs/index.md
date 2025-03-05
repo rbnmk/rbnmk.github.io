@@ -3,7 +3,3 @@ Welcome to this blog, where I share my ideas, designs and solutions to problems 
 ### Azure blogs
 
 [:material-microsoft-azure:](/blog/category/azure/){ .md-button }
-
-### Home Automation
-
-[:simple-homeassistant:](/blog/category/home-automation/){ .md-button }

@@ -2,12 +2,6 @@ site_name: "RBNMK"
 site_description: "A blog about automating and managing your Azure infrastructure."
 site_url: "https://rbnmk.github.io"
 
-nav:
-  - home: index.md
-  - blog:
-      - blog/index.md
-  - about: about.md
-
 theme:
   language: en
   name: material
@@ -99,7 +93,8 @@ extra_css:
   - stylesheets/extra.css
 
 plugins:
-  - blog
+  - blog:
+      blog_dir: .
   - search
   - social
   - tags
