@@ -2,50 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://blog.rbnmk.net/2020/03/27/azure-update-management-you-have-requested-to-create-an-update-configuration-on-a-machine-that-is-not-registered-for-update-management/</loc>
-         <lastmod>2025-03-05</lastmod>
+         <lastmod>2025-03-06</lastmod>
     </url>
     <url>
          <loc>https://blog.rbnmk.net/2022/11/15/azure-automation-runbook-could-not-convert-string-to-datetimeoffset/</loc>
-         <lastmod>2025-03-05</lastmod>
+         <lastmod>2025-03-06</lastmod>
     </url>
     <url>
          <loc>https://blog.rbnmk.net/2022/01/01/disable-health-probe-on-azure-front-door-origin-groups-using-bicep/</loc>
-         <lastmod>2025-03-05</lastmod>
+         <lastmod>2025-03-06</lastmod>
     </url>
     <url>
          <loc>https://blog.rbnmk.net/2023/07/12/failed-to-save-kubernetes-service---addonprofilesingressapplicationgatewayconfigapplicationgatewayid-is-invalid/</loc>
-         <lastmod>2025-03-05</lastmod>
+         <lastmod>2025-03-06</lastmod>
     </url>
     <url>
          <loc>https://blog.rbnmk.net/2025/01/02/from-jekyll-to-mkdocs-in-2025/</loc>
-         <lastmod>2025-03-05</lastmod>
+         <lastmod>2025-03-06</lastmod>
     </url>
     <url>
          <loc>https://blog.rbnmk.net/</loc>
-         <lastmod>2025-03-05</lastmod>
+         <lastmod>2025-03-06</lastmod>
     </url>
     <url>
          <loc>https://blog.rbnmk.net/archive/2025/</loc>
-         <lastmod>2025-03-05</lastmod>
+         <lastmod>2025-03-06</lastmod>
     </url>
     <url>
          <loc>https://blog.rbnmk.net/archive/2023/</loc>
-         <lastmod>2025-03-05</lastmod>
+         <lastmod>2025-03-06</lastmod>
     </url>
     <url>
          <loc>https://blog.rbnmk.net/archive/2022/</loc>
-         <lastmod>2025-03-05</lastmod>
+         <lastmod>2025-03-06</lastmod>
     </url>
     <url>
          <loc>https://blog.rbnmk.net/archive/2020/</loc>
-         <lastmod>2025-03-05</lastmod>
+         <lastmod>2025-03-06</lastmod>
     </url>
     <url>
          <loc>https://blog.rbnmk.net/category/general/</loc>
-         <lastmod>2025-03-05</lastmod>
+         <lastmod>2025-03-06</lastmod>
     </url>
     <url>
          <loc>https://blog.rbnmk.net/category/azure/</loc>
-         <lastmod>2025-03-05</lastmod>
+         <lastmod>2025-03-06</lastmod>
     </url>
 </urlset>
