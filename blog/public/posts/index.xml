@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on RBNMK</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on RBNMK</description>
+    <image>
+      <title>RBNMK</title>
+      <url>https://rbnmk.github.io/assets/images/bio_photo.jpg</url>
+      <link>https://rbnmk.github.io/assets/images/bio_photo.jpg</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Jul 2023 08:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Failed to save Kubernetes service - addonProfiles.ingressApplicationGateway.config.applicationGatewayId is invalid</title>
+      <link>http://localhost:1313/posts/2023-07-12-failed-to-save-kubernetes-service-applicationgatewayid-null/</link>
+      <pubDate>Wed, 12 Jul 2023 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-07-12-failed-to-save-kubernetes-service-applicationgatewayid-null/</guid>
+      <description>&lt;h1 id=&#34;failed-to-save-kubernetes-service---addonprofilesingressapplicationgatewayconfigapplicationgatewayid-is-invalid&#34;&gt;Failed to save Kubernetes service - addonProfiles.ingressApplicationGateway.config.applicationGatewayId is invalid&lt;/h1&gt;
+&lt;p&gt;I ran into an issue when deploying Azure Kubernetes services using ARM Templates. We previously set the ingress-agw addon to configure the ingress using an application gateway. We recently moved to the Azure Application Gateway Ingress Controller using Helm and simply set the addon configuration to &amp;rsquo;null&amp;rsquo; but that creates a conflict when making other changes such as changing the SKU (Pricing Tier) of the cluster.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Disable Health Probe on Azure Front Door Origin Groups using Bicep</title>
+      <link>http://localhost:1313/posts/2022-12-09-disable-health-probe-front-door-premium-bicep/</link>
+      <pubDate>Fri, 09 Dec 2022 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2022-12-09-disable-health-probe-front-door-premium-bicep/</guid>
+      <description>&lt;h1 id=&#34;disable-health-probe-on-azure-front-door-origin-groups-using-bicep&#34;&gt;Disable Health Probe on Azure Front Door Origin Groups using Bicep&lt;/h1&gt;
+&lt;p&gt;If you want to know how&amp;hellip; read on!&lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;For origins with a single backend it is recommended by the &lt;a href=&#34;https://learn.microsoft.com/en-us/azure/frontdoor/health-probes#disabling-health-probes&#34;&gt;Microsoft Learn documentation&lt;/a&gt; to disable the health probe to prevent the Front Door from consuming resources on your backend. Because I had troubles disabling the Health Probe using Bicep, because of lacking documentation on how to disable it, specifically for the Front Door Standard / Premium, which seems to belong to the Microsoft.Cdn resource provider. I wanted to share with you how you can disable the Health Probe, as it is quite easy, but if there is no documentation about this then it may take some time to figure it out. Click &lt;a href=&#34;#disable-the-health-probe-in-bicep&#34;&gt;here&lt;/a&gt; to find out how to disable it or just continue reading.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Azure Automation Runbook: Could not convert string to DateTimeOffset</title>
+      <link>http://localhost:1313/posts/2022-11-15-azure-automation-modules/</link>
+      <pubDate>Tue, 15 Nov 2022 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2022-11-15-azure-automation-modules/</guid>
+      <description>&lt;h1 id=&#34;azure-automation-runbook-could-not-convert-string-to-datetimeoffset&#34;&gt;Azure Automation Runbook: Could not convert string to DateTimeOffset&lt;/h1&gt;
+&lt;p&gt;I recently started getting issues with different customers in which we use Azure Automation for Update Management. We use the pre- and post runbook functionality for quite some time already, but recently we started getting these errors..&lt;/p&gt;
+&lt;p&gt;on multiple lines in the runbook output:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;quot;Could not convert string to DateTimeOffset: 1619773997. Path &#39;expires_on&#39;, line 1, position 2937.&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;While researching this issue I figured out it had something to do with Az Powershell and depending on a older or newer module within one of the submodules. (which can be found &lt;a href=&#34;https://github.com/microsoft/Intune-PowerShell-SDK/issues/55&#34;&gt;here&lt;/a&gt;{:target=&amp;quot;_blank&amp;quot;})&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Azure Update Management: You have requested to create an update configuration on a machine that is not registered for Update Management</title>
+      <link>http://localhost:1313/posts/2020-03-27-azure-update-management-you-have-requested-to-create-an-update-configuration-on-a-machine-that-is-not-registered-for-update-management/</link>
+      <pubDate>Fri, 27 Mar 2020 09:08:03 +0200</pubDate>
+      <guid>http://localhost:1313/posts/2020-03-27-azure-update-management-you-have-requested-to-create-an-update-configuration-on-a-machine-that-is-not-registered-for-update-management/</guid>
+      <description>&lt;h1 id=&#34;azure-update-management-you-have-requested-to-create-an-update-configuration-on-a-machine-that-is-not-registered-for-update-management&#34;&gt;Azure Update Management: You have requested to create an update configuration on a machine that is not registered for Update Management&lt;/h1&gt;
+&lt;p&gt;We have several customers running with our Update Management solution via Azure Automation. We schedule the deployments via Powershell and Azure DevOps. I have ran into several issues after migrating VM’s to Azure or moving VM’s within Azure.&lt;/p&gt;
+&lt;p&gt;Somehow the System Hybrid Worker gets corrupted and does not work anymore, so update deployments will fail with the following warning:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
