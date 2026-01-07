@@ -28,9 +28,14 @@ params:
   description: "Blogging about tech, programming, and more."
   keywords: [Blog, Portfolio]
   author: Robin
+  homeInfoParams:
+    Title: Hi there, I'm Robin!
+    Content: Welcome to my personal blog where I share insights on technology, programming, and more.
   socialIcons: # optional
     - name: "linkedin"
       url: "https://www.linkedin.com/in/robinmakkus/"
+    - name: "github"
+      url: "https://github.com/rbnmk"
   # images: ["https://rbnmk.github.io/assets/images/bio_photo.jpg"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
@@ -45,11 +50,16 @@ params:
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: true
   hidemeta: false
   hideSummary: false
   showtoc: false
   tocopen: false
+
+  editPost:
+    URL: "https://github.com/rbnmk/rbnmk.github.io/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
 
 menu:
   main:
