@@ -1,0 +1,77 @@
+baseURL: https://rbnmk.github.io/
+languageCode: en-us
+title: RBNMK
+theme: ["PaperMod"]
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts"]
+
+# googleAnalytics: G-MY2V1XSB91
+
+minify:
+  disableXML: true
+  minifyOutput: false
+
+pagination:
+  disableAliases: false
+  pagerSize: 5
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: RBNMK
+  description: "Blogging about tech, programming, and more."
+  keywords: [Blog, Portfolio]
+  author: Robin
+  socialIcons: # optional
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/robinmakkus/"
+  # images: ["https://rbnmk.github.io/assets/images/bio_photo.jpg"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: archives
+      url: /archives/
+      weight: 20
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
+caches:
+  images:
+    dir: :cacheDir/images

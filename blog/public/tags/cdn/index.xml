@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>CDN on RBNMK</title>
+    <link>http://localhost:1313/tags/cdn/</link>
+    <description>Recent content in CDN on RBNMK</description>
+    <image>
+      <title>RBNMK</title>
+      <url>https://rbnmk.github.io/assets/images/bio_photo.jpg</url>
+      <link>https://rbnmk.github.io/assets/images/bio_photo.jpg</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Dec 2022 08:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/cdn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Disable Health Probe on Azure Front Door Origin Groups using Bicep</title>
+      <link>http://localhost:1313/posts/2022-12-09-disable-health-probe-front-door-premium-bicep/</link>
+      <pubDate>Fri, 09 Dec 2022 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2022-12-09-disable-health-probe-front-door-premium-bicep/</guid>
+      <description>&lt;h1 id=&#34;disable-health-probe-on-azure-front-door-origin-groups-using-bicep&#34;&gt;Disable Health Probe on Azure Front Door Origin Groups using Bicep&lt;/h1&gt;
+&lt;p&gt;If you want to know how&amp;hellip; read on!&lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;For origins with a single backend it is recommended by the &lt;a href=&#34;https://learn.microsoft.com/en-us/azure/frontdoor/health-probes#disabling-health-probes&#34;&gt;Microsoft Learn documentation&lt;/a&gt; to disable the health probe to prevent the Front Door from consuming resources on your backend. Because I had troubles disabling the Health Probe using Bicep, because of lacking documentation on how to disable it, specifically for the Front Door Standard / Premium, which seems to belong to the Microsoft.Cdn resource provider. I wanted to share with you how you can disable the Health Probe, as it is quite easy, but if there is no documentation about this then it may take some time to figure it out. Click &lt;a href=&#34;#disable-the-health-probe-in-bicep&#34;&gt;here&lt;/a&gt; to find out how to disable it or just continue reading.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
